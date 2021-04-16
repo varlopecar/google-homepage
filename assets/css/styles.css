@@ -6,6 +6,17 @@ body{
     font-family: Arial;
     background-color: #fff;
 }
-ul{
-    list-style: none;
+.main-container{
+    margin: 1em;
+    /*border: solid black;*/
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    word-spacing: 14px;
+}
+.main-nav a{
+    text-decoration: none;
+    color: rgb(51, 49, 49);
 }
