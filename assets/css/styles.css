@@ -5,18 +5,31 @@
 body{
     font-family: Arial;
     background-color: #fff;
+    font-size: 14px;
+    font-weight: 300;
 }
 .main-container{
     margin: 1em;
     /*border: solid black;*/
 }
-.nav-container{
+.main-nav{
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    word-spacing: 14px;
+    border: solid black;
 }
-.main-nav a{
+.main-nav img{
+    position: relative;
+    padding: .5rem;
+}
+.main-nav-as{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-nav-as a{
     text-decoration: none;
     color: rgb(51, 49, 49);
+    padding: 10px; 
 }
