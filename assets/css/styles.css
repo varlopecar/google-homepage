@@ -10,7 +10,6 @@ body{
 }
 .main-container{
     margin: .5em;
-    /*border: solid black;*/
 }
 .main-nav{
     height: 50px;
@@ -41,4 +40,12 @@ body{
     height: 92px;
     display: flex;
     margin: auto;
+}
+#searchbar{
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 575px;
+    height: 50px;
 }
