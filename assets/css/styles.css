@@ -9,7 +9,7 @@ body{
     font-weight: 300;
 }
 .main-container{
-    margin: 1em;
+    margin: .5em;
     /*border: solid black;*/
 }
 .main-nav{
@@ -17,19 +17,28 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    border: solid black;
+    
 }
 .main-nav img{
     position: relative;
     padding: .5rem;
+    margin-left: 12px;
+    border-radius: 150px;
 }
 .main-nav-as{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 170px;
 }
 .main-nav-as a{
     text-decoration: none;
     color: rgb(51, 49, 49);
     padding: 10px; 
+}
+#logo{
+    width: 272px;
+    height: 92px;
+    display: flex;
+    margin: auto;
 }
