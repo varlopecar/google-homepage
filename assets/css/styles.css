@@ -12,7 +12,7 @@ body{
     background-color: #fff;
     font-size: 14px;
     font-weight: 300;
-    height: 100%;
+    min-height: 100%;
 }
 .main-container{
     margin: .5em;
@@ -64,25 +64,18 @@ body{
     justify-content: space-between;
     margin: auto;
     width: 350px;
+    padding-top: 20px;
 }
 .btn-center input{
     height: 30px;
     width: 150px;
     border: 0;
-    color: #aaa;
+    color: rgba(0, 0, 0, 0.54);
 }
 .credits{
     display: flex;
     justify-content: center;
     padding-top: 20px;
-}
-.footer{
-    flex: 0 0 auto;
-    position: relative;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 .country{
     color: rgba(0, 0, 0, 0.54);
@@ -91,18 +84,18 @@ body{
     position: relative;
     border-bottom: 1px solid #e4e4e4;
 }
-.links{
-    position: relative;
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
 }
-.links a{
+.footer-links a{
     text-decoration: none;
-    color: rgba(95, 99, 104);
+    color: rgba(0, 0, 0, 0.54);
+    padding: 9px;
 }
-.footer-span{
-    display: block;
-    text-align: center;
-    padding-right: 0px;
-    margin: auto;
-}.footer-right{
-    position: static;
+.footer-left{
+    justify-content: flex-start;
+}
+.footer-right{
+    justify-content: flex-end;
 }
