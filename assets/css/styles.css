@@ -50,11 +50,6 @@ body{
 .searchbar-container{
     position: relative;
 }
-.search-icon{
-    position: relative;
-    left: 40px;
-    bottom: 60px;
-}
 #searchbar{
     display: flex;
     margin: auto;
@@ -82,11 +77,32 @@ body{
     padding-top: 20px;
 }
 .footer{
+    flex: 0 0 auto;
+    position: relative;
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-.footer-container a{
+.country{
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 15px;
+    margin-left: 3px;
+    position: relative;
+    border-bottom: 1px solid #e4e4e4;
+}
+.links{
+    position: relative;
+}
+.links a{
     text-decoration: none;
+    color: rgba(95, 99, 104);
+}
+.footer-span{
+    display: block;
+    text-align: center;
+    padding-right: 0px;
+    margin: auto;
+}.footer-right{
+    position: static;
 }
